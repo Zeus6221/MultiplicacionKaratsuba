@@ -1,0 +1,9 @@
+﻿<Window x:Class="Karatsuba.IGU.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:hc="clr-namespace:Karatsuba.IGU"
+        Title="Captura Karatsuba" Height="Auto" Width="Auto" >
+    <DockPanel>
+        <hc:CapturaNumeros VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10"></hc:CapturaNumeros>
+    </DockPanel>
+</Window>

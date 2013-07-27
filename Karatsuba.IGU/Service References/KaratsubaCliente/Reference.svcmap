@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c685220c-95da-471a-8f10-ced91211f0fc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2023/ServicioMultiplicacionKaratsuba.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioMultiplicacionKaratsuba.xsd" MetadataType="Schema" ID="f8d90ed0-d838-4aa1-a910-b0b1a8f843cc" SourceId="1" SourceUrl="http://localhost:2023/ServicioMultiplicacionKaratsuba.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioMultiplicacionKaratsuba1.xsd" MetadataType="Schema" ID="f60306cc-40f4-4c38-a8cd-59275815316a" SourceId="1" SourceUrl="http://localhost:2023/ServicioMultiplicacionKaratsuba.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioMultiplicacionKaratsuba.disco" MetadataType="Disco" ID="99262d09-d573-4ce7-b1dc-0d2aedf8776b" SourceId="1" SourceUrl="http://localhost:2023/ServicioMultiplicacionKaratsuba.svc?disco" />
+    <MetadataFile FileName="ServicioMultiplicacionKaratsuba.wsdl" MetadataType="Wsdl" ID="257bdc5e-4590-44bc-b4b9-2847e746e2f5" SourceId="1" SourceUrl="http://localhost:2023/ServicioMultiplicacionKaratsuba.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
